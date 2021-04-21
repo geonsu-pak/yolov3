@@ -11,3 +11,10 @@ Each grid will output the followings:
 > confidence : IoU score between the predict box and the real box  
 > class probalitity : object classification score  
 
+Darknet-53 used
+
+![not exist](darknet-53.jpg)
+
+Yolo3 Architecture
+
+![not exist](yolo_architecture.png)
