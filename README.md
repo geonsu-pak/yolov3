@@ -2,14 +2,16 @@
 
 > The object detection problem = a regression problem  
 > The image is divided into an S × S grid  
-> If the center of a target falls into a grid, the grid is responsible for detecting the target.
+> **If the center of a target falls into a grid, the grid is responsible for detecting the target.**
 
 ![not exist](yolo_grid.jpg)
 
 Each grid will output the followings:  
-> bounding box : x,y,w,h -> (x,y) is the center of box   
-> confidence : IoU score between the predict box and the real box  
-> class probalitity : object classification score  
+> Box Co-ordinates : x,y,w,h -> (x,y) is the center of box   
+> Objectness Score : IoU score between the predict box and the real box  
+> Class Scores.    : object classification score  
+
+![not exist](yolov3-dog.png)
 
 Darknet-53 used
 
